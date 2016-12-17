@@ -8,8 +8,13 @@
  */
 public class Main {
 
-    public static void main(String[] args){
-        System.out.println("Hello world");
+    public static void main(String[] args) {
+        Orang orang = new Orang();
+        orang.setNama_depan("Ahmad");
+        orang.setNama_belakang("Rosid");
+
+        System.out.println(orang.getNama_depan());
+        System.out.println(orang.getNama_belakang());
     }
 
 }
